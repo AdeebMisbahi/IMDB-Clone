@@ -1,5 +1,5 @@
 
-# VegaMovies 
+# [VegaMovies](https://adeebmisbahi1.github.io/VegaMovies-IMDb-Clone/)
 Vegamovies is a web application that allows users to explore and discover information about movies, including details, ratings, and Add movies to Favorite list.
 # Demo
 [video demo](
