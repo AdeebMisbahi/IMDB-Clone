@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App Clone</title>
+    <!-- external Link for css file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- this link is for font-awesome  -->
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- for a fivicon -->
+    <link rel="shortcut icon" href="./images/icon.jpg" type="image/x-icon">
+
+</head>
+<body>
+       <header>
+        <div class="logo-image">
+            <img src="images/logo.png">
+        </div>
+
+        <form id="form-control">
+            <input id="search-bar" type="text" placeholder="Search Movie Here..">
+            <button id="btn-for-input" type="submit"><i class="fas fa-search search-ico"></i></button>
+        </form>
+       
+     
+      <!-- search list container -->
+      <div class="search-list-container">
+<!-- 
+        <div class="search-list-item">
+            <div class="item-thumbnail">
+                <img src="https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg" alt="">
+            </div>
+            <div class="item-info">
+              <h3>3 Idiots</h3>
+              <p>2009</p>
+            </div>
+            <button id="addTo-fav">
+              <i class="fa-sharp fa-regular fa-heart" onmouseover="this.classList.replace('fa-regular', 'fa-solid')" onmouseout="this.classList.replace('fa-solid', 'fa-regular')"></i>
+              
+            </button>
+        </div>
+         -->
+      </div>
+
+      <!-- favorite movies list -->
+     <div id="fav-movies-list">
+        <div class="fav-list-title">
+    <h2>Add Your Favorite <span>Movies</span></h2>
+        </div>
+       <div class="fav-list-container">
+           <!-- <ul class="ul-1">
+            <li class="fav-item-thumbnail"> <img src="https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg" alt=""></li>
+            <li class="fav-item-info">
+                <h3>
+                    3 idiots <span>(2009)</span>
+                    <p>Aamir khan, Madhavan</p>
+                </h3>
+            </li>
+            <li >
+                <button id="removeFrom-fav" >
+                    <i class="fa-sharp fa-solid fa-heart" onmouseover="this.classList.replace('fa-solid', 'fa-regular')" onmouseout="this.classList.replace('fa-regular', 'fa-solid')"></i>
+                </button>
+            </li>
+           </ul> -->
+     </div>
+    </div>
+    </header>
+
+    <!-- search result container 
+    will be added in newPage Dynamically
+    -->
+<!-- <div id="result-container">
+<div class="result-list" >
+<div class="result-grid" id="result-grid">
+        <div class="movie-poster">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg" alt="">
+                </div>
+            <div class="movie-info">
+            <h3 class="movie-title">3 idiots</h3>
+             <ul class="movie-misc-info">
+                <li class="year">Year: 2009</li>
+                <li class="rated">Ratings PG-13</li>
+                <li class="released">Released: 25 Dec 2009</li>
+             </ul>
+             <p class="genre"><b>Genre:</b> Comedy, Drama</p>
+             <p class="writer"><b>Writer:</b> Abhijat Joshi, Rajkumar Hirani, Vidhu Vinod Chopra</p>
+             <p class="actors"><b>Actors:</b> Aamir Khan, Madhavan, Mona Singh</p>
+             <p class="plot"><b>Plot:</b> Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them idiots</p>
+             <p class="language"><b>Language:</b> Hindi, English</p>
+             <p class="awards"><b>Awards <i class="fas fa-award"></i> :</b> 66 wins & 30 nominations</p>
+
+            </div>    
+            </div>
+        </div>
+
+        </div> -->
+
+
+
+       <script src="script.js" type="module"></script>
+</body>
+</html>
