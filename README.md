@@ -2,7 +2,8 @@
 # VegaMovies 
 Vegamovies is a web application that allows users to explore and discover information about movies, including details, ratings, and Add movies to Favorite list.
 # Demo
-[video demo](https://raw.githubusercontent.com/AdeebMisbahi1/VegaMovies-IMDb-Clone/main/images/Done.mp4)
+[video demo](
+https://github.com/AdeebMisbahi1/VegaMovies-IMDb-Clone/assets/130211733/1c1096e1-b556-4df9-a86c-f3eef543a839)
 
 
 
